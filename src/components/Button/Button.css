@@ -1,0 +1,36 @@
+:root{
+    --primary-color: #1970d9;
+    --primary-color-5: #2761ab;
+    --disabled: #B2B2B2;
+    --white: #FFF;
+}
+
+.btn{
+    padding: 0.6rem 0.8rem;
+    font-size: 1.2rem;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: var(--primary-color);
+}
+.btn_text{
+    color: var(--white);
+}
+
+.disabled{
+    background-color: var(--disabled);
+}
+
+.disabled:hover{
+    background-color: var(--disabled);
+}
+
+.btn:active:enabled{
+    transform: scale(0.98);
+}
+.btn:hover:enabled{
+    cursor: pointer;
+    background-color: var(--primary-color-5);
+}
