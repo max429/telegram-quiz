@@ -46,7 +46,7 @@ function App() {
                            })
                          }}/>)
         })}
-        {!gameIsOver ? <Button text={'Check'} onClick={() => {
+        {!gameIsOver ? <Button text={'Check4'} onClick={() => {
               checkStoryAnswers('story1', userAnswers).then(({errorIndices}) => {
                 setErrorIndices(errorIndices);
                 setGameIsOver(true);
